@@ -1287,7 +1287,7 @@ class Runtime(Configable):
             return fullgtor
 
         def relgtor(node):
-            full = node[1].get('tufo:form') + prop
+            full = node[1].get('node:form') + prop
             return full, node[1].get(full)
 
         return relgtor
